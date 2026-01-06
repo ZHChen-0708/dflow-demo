@@ -63,3 +63,7 @@ minikube kubectl -n argo port-forward deployment/minio 9000:9000 --address 0.0.0
 # Additional: Access minio UI
 minikube kubectl -n argo port-forward deployment/minio 9001:9001 --address 0.0.0.0
 # linux user might need to use `minikube kubectl --`
+
+cd ~/dflow_demo
+git clone https://github.com/ZHChen-0708/dflow-demo.git
+python3 ~
